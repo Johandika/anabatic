@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+.bg-sidebar {
+  background-color: #f6f8f9;
+}
+.icontext-active {
+  color: #0e73f6 !important;
+}
+
+.icontext-nonactive {
+  color: #84919a !important;
+}
+
+.bg-sidebar-active {
+  background-color: #d7edff !important;
+}
+
+.border-none {
+  border: 0 !important;
+}
+
+/* Menyembunyikan sidebar pada layar kecil */
+@media (max-width: 576px) {
+  #navbarNav {
+    display: none;
+  }
+  #menu-toggle {
+    display: inline;
+  }
+}
+
+.abu-abu {
+  color: #84919a;
+}
